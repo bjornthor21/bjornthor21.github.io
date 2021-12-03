@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body{
+    background-color: red;
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.center{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header{
+    background: rgb(0, 0, 0, 0.7);
+    height: 100vh;
+    color: red;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 
+    3px  3px 0 orange,
+    -1px -1px 0 orange,  
+     1px -1px 0 orange,
+    -1px  1px 0 yellow,
+     1px  1px 0 yellow;
+}
+
+.title{
+    margin-top: 40vh;
+}
+
+.innermenu{
+    text-align: center;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.innermenu a{
+    background: orange;
+    padding: 16px;
+}
+
+.innermenu a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.innermenu a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.innermenu a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    font-style: oblique;
+}
+
+.text div{
+    padding: 16px;
+}
+
+.pic{
+    width: 300px;
+}
+
+.video{
+    font-style: italic;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map{
+    text-align: center;
+}
+
+.audio{
+    text-align: center;
+    padding: 16px;
+}
+
+.footer{
+    background: rgb(0, 0, 0, 0.7);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+    padding-left: 150px;
+}
+
+.footerItems{
+    padding: 20px;
+}
+
+.footer a:link{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.footer li{
+    list-style-type: none;
+}
